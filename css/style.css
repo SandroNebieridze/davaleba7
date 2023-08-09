@@ -1,5 +1,47 @@
-.container{
+.container {
     max-width: 1920px;
     width: 100%;
     margin: auto;
+    
+}
+
+/* header */
+header {
+    height: 130px;
+    background: #262626;
+    padding: 0 16.5%;
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navigation_ul {
+    display: flex;
+    gap: 68px;
+}
+
+.active {
+    color: #DCB47A;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.inactive {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
